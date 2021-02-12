@@ -1,1 +1,216 @@
-/* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    max-width:100%;
+    /* border: 1px solid black; */
+}
+
+/*General Styles*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size:1.6rem;
+    line-height: 1.5;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #ecd9c6;
+}
+
+span {
+    font-weight: bolder;
+}
+
+
+h1 {
+    font-size: 8rem;
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+}
+
+section {
+    padding: 4% 0
+}
+
+/*header section styles*/
+nav div{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a{
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 0.7rem;
+    display: inline-block;
+    margin: 0% 0.2%;
+    letter-spacing: 3px;
+}
+
+.home {
+    width:10%;
+    background-color: #cc9966;
+    color: wheat;
+}
+
+.about {
+    width:10%;
+    background-color:#c68c53;
+    color: wheat;
+}
+
+.contact {
+    width:10%;
+    background-color:#bf8040; 
+    color: wheat;
+}
+
+.projects {
+    width:10%;
+    background-color:#ac7339;
+    color: wheat;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    padding: 2%;
+}
+
+.aboutme {
+    background-color: #f9f2ec;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Background Image*/
+.bg-img {
+    background-image:url('../images/computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 40vh;
+}
+/*Gallery of photos*/
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.gallery div{
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.right {
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 2.5rem;
+    padding: 2%;
+}
+
+#project-b {
+text-align: center;  
+width: 100px;
+height: 40px; 
+}
+
+/*Footer*/
+
+footer{
+    background-color: burlywood;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 4%
+}
+
+#contact-b {
+text-align: center;  
+}
+
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
