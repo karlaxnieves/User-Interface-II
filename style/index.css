@@ -46,7 +46,7 @@ table {
 * {
     box-sizing: border-box;
     max-width:100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /*General Styles*/
@@ -62,7 +62,7 @@ body {
     background-color: #ecd9c6;
 }
 
-span{
+span {
     font-weight: bolder;
 }
 
@@ -91,7 +91,7 @@ nav div{
     border: 0.7rem;
     display: inline-block;
     margin: 0% 0.2%;
-    letter-spacing: 3px;;
+    letter-spacing: 3px;
 }
 
 .home {
@@ -143,6 +143,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 40vh;
 }
 /*Gallery of photos*/
@@ -166,5 +167,50 @@ h2 {
     font-size: 2.5rem;
     padding: 2%;
 }
+
+#project-b {
+text-align: center;  
+width: 100px;
+height: 40px; 
+}
+
+/*Footer*/
+
+footer{
+    background-color: burlywood;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 4%
+}
+
+#contact-b {
+text-align: center;  
+}
+
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
 
 
