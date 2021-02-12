@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -42,3 +42,120 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+* {
+    box-sizing: border-box;
+    max-width:100%;
+    border: 1px solid black;
+}
+
+/*General Styles*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size:1.6rem;
+    line-height: 1.5;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+span{
+    font-weight: bolder;
+}
+.myname {
+    background-color: #ecd9c6;
+}
+
+h1 {
+    font-size: 8rem;
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+}
+
+section {
+    padding: 4% 0
+}
+
+/*header section styles*/
+nav div{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a{
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 0.7rem;
+    display: inline-block;
+    margin: 0% 0.2%;
+    letter-spacing: 3px;;
+}
+
+.home {
+    width:10%;
+    background-color: #cc9966;
+    color: wheat;
+}
+
+.about {
+    width:10%;
+    background-color:#c68c53;
+    color: wheat;
+}
+
+.contact {
+    width:10%;
+    background-color:#bf8040; 
+    color: wheat;
+}
+
+.projects {
+    width:10%;
+    background-color:#ac7339;
+    color: wheat;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    padding: 2%;
+}
+
+.aboutme {
+    background-color: #f9f2ec;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Background Image*/
+.bg-img {
+    background-image:url('../images/computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+/*Gallery of photos*/
+
+.gallery {
+display: flex;
+justify-content: flex-start;
+}
+
+.left img{
+width: 20%;
+height: 20;
+}
+
+
