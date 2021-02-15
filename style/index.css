@@ -248,6 +248,44 @@ nav .footer {
     }
 }
 
+@media(max-width:500px){
+  .home {
+      margin: 2%;
+  }
+
+  .about {
+    margin: 2%;
+}
+
+.contact {
+    margin: 2%;
+}
+
+.projects {
+    margin: 2%;
+}
+
+.images p {
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.button {
+    width: 20%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    }
+
+footer {
+    flex-direction: column;
+    margin: 2% 0;
+}
+
+}
+
+
 
 
 
