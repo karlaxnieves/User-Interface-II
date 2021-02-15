@@ -208,10 +208,6 @@ footer div{
     text-align: center;
 }
 
-nav .footer {
-    
-}
-
 .footernav a {
     margin: 10%;
 }
@@ -282,8 +278,14 @@ footer {
     flex-direction: column;
     margin: 2% 0;
 }
-
+.footernav {
+    margin: auto;
+    height: 10%;
+    width: 30%;
 }
+    
+}
+
 
 
 
