@@ -8,72 +8,83 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&family=Pangolin&display=swap"
         rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KarlaXNieves</title>
 </head>
 
 <body>
-    <section class="myname">
+    <header>
         <div>
             <h1>Karla Nieves</h1>
         </div>
         <nav>
-            <div class="navigation">
+            <div class="links">
                 <a class="home" href="#">Home</a>
                 <a class="about" href="about.html">About</a>
                 <a class="contact" href="contact.html">Contact</a>
                 <a class="projects" href="projects.html">Projects</a>
-        </nav>
-        </div>
-        <div class="aboutme">
-            <h2>Introducing My Site</h2>
-            <div>
-                <p>My site captivates the essense of who I am as a person and what I like. <br>In this site you will
-                    find
-                    projects I have created in the past few months. <br>You will see projects that range anywhere from
-                    scenic to
-                    animal friendly websites. <br>My vision for this site is to help my clients navigate through my
-                    different
-                    styles of web developing. <br><span>I hope you enjoy it!</span></p>
             </div>
-        </div>
-    </section>
+        </nav>
+    </header>
+
+
+    <div class="aboutme">
+        <section class="introduction">
+            <h2>Introducing My Site</h2>
+            <p>My site captivates the essense of who I am as a person and what I like. <br>In this site you will
+                find
+                projects I have created in the past few months. <br>You will see projects that range anywhere from
+                scenic to
+                animal friendly websites. <br>My vision for this site is to help my clients navigate through my
+                different
+                styles of web developing. <br><span>I hope you enjoy it!</span></p>
+        </section>
+    </div>
+
 
     <section class="bg-img">
         <!--empty-->
 
     </section>
-    <div>
+
+
+    <div class="photos">
         <section class="gallery">
-            <div>
-                <img src="images/beach.jpg" alt="image of the ocean">
-                <img src="images/dog.jpg" alt="goldendoodle on a bed">
-                <img src="images/sunset.jpg" alt="cotton candy sky">
-                <img src="images/plant.jpg" alt="dried plants sitting on a white blanket">
+            <div class="images"><img src="images/beach.jpg" alt="image of the ocean"></div>
+            <div class="images"><img src="images/dog.jpg" alt="goldendoodle on a bed"></div>
+            <div class="images"><img src="images/sunset.jpg" alt="cotton candy sky"></div>
+            <div class="images"><img src="images/plant.jpg" alt="dried plants sitting on a white blanket"></div>
+            <div class="images">
+                <p>The projects on the left are a collection of sites that I have worked on for the past few months.<br>
+                    If you would like to take a deep dive into these websites you may click the button below.<br></p>
+
+                <div class=cta>
+                    <button>Projects</button>
+                </div>
             </div>
 
-            <div class="right">
-                The projects on the left are a collection of sites that I have worked on for the past few months.<br>
-                If you would like to take a deep dive into these websites you may click the button below.<br>
-                
-                    <button id="project-b" onclick="projects.html">Projects</button>
-                
-
-            </div>
     </div>
     </section>
 
+
+
     <footer>
         <div>
-            <button id ="contact-b" onclick="contact.html">Contact Me</button>
-            <a class="fa fa-instagram" href="https://www.instagram.com/karlaxnieves/" target="_blank"></a>
+            <h3>Click the button below to get in touch!</h3>
+            <div class=cta>
+                <button>Contact Me</button>
+            </div>
+            <nav class="social">
+                <a class="fa fa-instagram" href="https://www.instagram.com/karlaxnieves/" target="_blank"></a>
+            </nav>
         </div>
-            <div class="footernav">
-                <nav>
-                    <a class="home" href="#">Home</a>
-                    <a class="about" href="about.html">About</a>
-                    <a class="contact" href="contact.html">Contact</a>
-                    <a class="projects" href="projects.html">Projects</a>
-                </nav>
+        <div>
+            <nav class="footernav">
+                <a class="home" href="#">Home</a>
+                <a class="about" href="about.html">About</a>
+                <a class="contact" href="contact.html">Contact</a>
+                <a class="projects" href="projects.html">Projects</a>
+            </nav>
         </div>
     </footer>
 

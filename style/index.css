@@ -71,52 +71,63 @@ h1 {
     font-size: 8rem;
     font-family: 'Pangolin', cursive;
     text-align: center;
-}
-
-section {
-    padding: 4% 0
+    padding: auto;
+    padding-top: 2%;
 }
 
 /*header section styles*/
-nav div{
+
+.links {
+    padding: 0.5%;
+    padding-bottom: 3%;
+    width: 40%;
+    align-items: center;
     display: flex;
+    justify-content: space-around;
+}   
+
+nav a{
+    text-decoration: none;
+    border: 20% solid;
+    padding: 7px 12px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
-.navigation a{
-    padding: 1%;
-    text-align: center;
+a{
+    font-size: 2rem;
+    color: White;
     border-radius: 10px;
-    text-decoration: none;
-    border: 0.7rem;
-    display: inline-block;
-    margin: 0% 0.2%;
-    letter-spacing: 3px;
+    display: flex;
+    justify-content:space-between;
 }
 
+
 .home {
-    width:10%;
     background-color: #cc9966;
     color: wheat;
 }
 
 .about {
-    width:10%;
     background-color:#c68c53;
     color: wheat;
 }
 
 .contact {
-    width:10%;
     background-color:#bf8040; 
     color: wheat;
 }
 
 .projects {
-    width:10%;
     background-color:#ac7339;
     color: wheat;
 }
+
+/*Middle Parahrap*/
 
 h2 {
     font-size: 4rem;
@@ -128,14 +139,11 @@ h2 {
 .aboutme {
     background-color: #f9f2ec;
     margin: auto;
-    padding: 1%;
+    padding: 2%;
     text-align: center;
     width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
 }
+
 
 /* Background Image*/
 .bg-img {
@@ -148,30 +156,32 @@ h2 {
 }
 /*Gallery of photos*/
 
-.gallery{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
+.photos{
+    margin: 1.5%;
 }
 
-.gallery div{
-    width: 20%;
+.images{
+    width: 18%;
+    height: 25%;
+}
+
+.gallery {
+    width: auto;
     display: flex;
-    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
-.right {
-    text-align: center;
-    display:flex;
-    flex-wrap:wrap;
-    font-size: 2.5rem;
-    padding: 2%;
+.images p {
+    font-size: 2rem;
+    color: #805500;
 }
 
-#project-b {
-text-align: center;  
-width: 100px;
-height: 40px; 
+.cta button {
+    height: 30px;
+    background-color: #604020;
+    color: #f9f2ec;
+    border-radius: 5px;
+    font-size: 1.5rem;
 }
 
 /*Footer*/
@@ -181,7 +191,7 @@ footer{
     color: black;
     display: flex;
     justify-content: space-between;
-    
+    padding: 4%;
 }
 
 footer div{
@@ -189,12 +199,8 @@ footer div{
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    padding: 4%
 }
 
-#contact-b {
-text-align: center;  
-}
 
 .fa {
     padding: 20px;
@@ -202,12 +208,45 @@ text-align: center;
     text-align: center;
 }
 
-footer div{
-    display: flex;
-    justify-content: center;
+nav .footer {
     
 }
 
+.footernav a {
+    margin: 10%;
+}
+
+@media(max-width:800px) {
+    .links {
+        flex-direction: column;
+    }
+
+    .aboutme {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .images{
+        width: 45%;
+        height: 45%;
+    }
+
+    .images p {
+        text-align: center;
+        margin: 3% 0;
+        font-size: 2.3rem;
+    }
+
+    .cta {
+        align-items: center;
+        text-align: center;
+    }
+}
 
 
 
